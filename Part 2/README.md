@@ -27,5 +27,3 @@ If the dataset were larger and had more variety, a training schedule would be us
 
 ### results
 An evaluation dataset that the network was not trained on would be ideal
-
-### other thoughts
