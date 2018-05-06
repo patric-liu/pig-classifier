@@ -26,4 +26,4 @@ The network structure used should suffice for this simple binary classification 
 If the dataset were larger and had more variety, a training schedule would be useful for maintaining a balance between training speed and network accuracy. 
 
 ### results
-An evaluation dataset that the network was not trained on would be ideal
+An evaluation dataset would be essential in real applications to evaluate how well the network performs on unseen data. Overfitting can very easily occur in situations such as this were there is very little variance in the data. 
