@@ -7,10 +7,10 @@ data
 I found 15 images of empty cages online, and randomly chose 15 of the provided pig photos and scaled them all down to a size (148 x 200 px) that my computer could handle. 
 
 ### network
-The network contains two convolution layers with max-pooling, then a fully connected layer before the output. I chose two convolution layers in order to extract higher level features while still keeping the network size small. 
+The network contains two convolution layers with max-pooling, then a fully connected layer before the output. I chose two convolution layers in order to extract higher level features while still keeping the network size small.
 
 ### training
-Training was done with tensorflow’s AdamOptimizer with a fixed learning rate and with dropout to improve regularization
+Training was done with tensorflow’s AdamOptimizer with a fixed learning rate and with dropout as a form of regularization
 
 ### results
 The network quickly converges to an optimum due to the simplicity of the problem, arising from the limited and easy-to-learn data. 
